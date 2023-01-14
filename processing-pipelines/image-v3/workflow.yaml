@@ -13,7 +13,7 @@ main:
   - filter:
       call: http.post
       args:
-        url: FILTER_URL # TODO: Replace
+        url: https://filter-ewbrddswgq-uc.a.run.app # TODO: Replace
         auth:
           type: OIDC
         body:
@@ -33,7 +33,7 @@ main:
   - label:
       call: http.post
       args:
-        url: LABELER_URL # TODO: Replace
+        url: https://labeler-ewbrddswgq-uc.a.run.app # TODO: Replace
         auth:
           type: OIDC
         body:
@@ -43,7 +43,7 @@ main:
   - resize:
       call: http.post
       args:
-        url: RESIZER_URL # TODO: Replace
+        url: https://resizer-ewbrddswgq-uc.a.run.app # TODO: Replace
         auth:
           type: OIDC
         body:
@@ -53,7 +53,7 @@ main:
   - watermark:
       call: http.post
       args:
-        url: WATERMARKER_URL # TODO: Replace
+        url:  # TODO: Replace
         auth:
           type: OIDC
         body:
