@@ -53,7 +53,7 @@ main:
   - watermark:
       call: http.post
       args:
-        url:  # TODO: Replace
+        url: https://watermark-ewbrddswgq-uc.a.run.app  # TODO: Replace
         auth:
           type: OIDC
         body:
